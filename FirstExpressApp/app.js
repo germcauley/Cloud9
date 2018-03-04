@@ -4,8 +4,6 @@ var express = require("express");
 var app = express();
 
 
-
-
 // "/" = Hi there
 app.get("/",function(req,res){
     res.send("Hi there");
@@ -37,8 +35,6 @@ app.get("/r/:subredditName/comment/:id/:title/", function(req, res){
 app.get("*", function(req, res){
     res.send("YOU ARE A STAR!");
 });
-
-
 
 
 //Tell express to listen for requests(start server))
