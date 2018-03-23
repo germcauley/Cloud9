@@ -6,9 +6,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 var campgrounds=[
-        {name: "Salmon Creek", image: "https://pixabay.com/get/eb30b90e2af0033ed1584d05fb1d4e97e07ee3d21cac104497f1c471a1e8b0b1_340.jpg"},
-        {name: "Rocky Cliff", image: "https://pixabay.com/get/e837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104497f1c471a1e8b2bf_340.jpg"},
-        {name: "Smokey Bear Forest", image: "https://pixabay.com/get/eb37b9082df3003ed1584d05fb1d4e97e07ee3d21cac104497f1c471a1e8b2bf_340.jpg"}
+        {name: "Salmon Creek", image: "http://www.campriversedge.com/Websites/campriversedge/Images/RETentsMed.jpg"},
+        {name: "Rocky Cliff", image: "http://img.metro.co.uk/i/pix/2011/05/27/article-1306483624117-0C465BCC00000578-172642_466x310.jpg"},
+        {name: "Smokey Bear Forest", image: "http://www.traveloutthere.com/files/photo_gallery/457x306/Forest-Camping.jpg"}
 ]
 
 
