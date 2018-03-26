@@ -6,9 +6,12 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 var campgrounds=[
-        {name: "Salmon Creek", image: "http://www.campriversedge.com/Websites/campriversedge/Images/RETentsMed.jpg"},
-        {name: "Rocky Cliff", image: "http://img.metro.co.uk/i/pix/2011/05/27/article-1306483624117-0C465BCC00000578-172642_466x310.jpg"},
-        {name: "Smokey Bear Forest", image: "http://www.traveloutthere.com/files/photo_gallery/457x306/Forest-Camping.jpg"}
+        {name: "Salmon Creek", image: "http://www.photosforclass.com/download/pixabay-839807?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fe136b80728f31c22d2524518b7444795ea76e5d004b0144397f0c678a1ebb7_960.jpg&user=Free-Photos"},
+        {name: "Rocky Cliff", image: "http://www.photosforclass.com/download/pixabay-2581242?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Feb30b90e2af0033ed1584d05fb1d4e97e07ee3d21cac104497f2c170afe9b6bb_960.jpg&user=6091236"},
+        {name: "Smokey Bear Forest", image: "http://www.photosforclass.com/download/pixabay-548022?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fec31b90f2af61c22d2524518b7444795ea76e5d004b0144397f0c678a1ebb7_960.jpg&user=bhossfeld"},
+        {name: "Salmon Creek", image: "http://www.photosforclass.com/download/pixabay-839807?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fe136b80728f31c22d2524518b7444795ea76e5d004b0144397f0c678a1ebb7_960.jpg&user=Free-Photos"},
+        {name: "Rocky Cliff", image: "http://www.photosforclass.com/download/pixabay-2581242?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Feb30b90e2af0033ed1584d05fb1d4e97e07ee3d21cac104497f2c170afe9b6bb_960.jpg&user=6091236"},
+        {name: "Smokey Bear Forest", image: "http://www.photosforclass.com/download/pixabay-548022?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fec31b90f2af61c22d2524518b7444795ea76e5d004b0144397f0c678a1ebb7_960.jpg&user=bhossfeld"}
 ]
 
 
