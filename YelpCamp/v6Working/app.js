@@ -27,6 +27,8 @@ passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
+
+//call function on every route to see if logged in as user
 app.use(function(req, res, next){
    res.locals.currentUser = req.user;
    next();
@@ -43,7 +45,7 @@ app.get("/campgrounds", function(req, res){
        if(err){
            console.log(err);
        } else {
-          res.render("campgrounds/index",{campgrounds:allCampgrounds});
+          res.render("campgrounds/index",{campgrounds:allCampgrounds, currentUser: req.user});
        }
     });
 });
