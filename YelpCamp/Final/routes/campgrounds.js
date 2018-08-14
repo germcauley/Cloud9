@@ -33,7 +33,7 @@ router.post("/", middleware.isLoggedIn, function(req, res){
         id: req.user._id,
         username: req.user.username
     }
-    var newCampground = {name: name,price:price, image: image, description: desc, author:author}
+    var newCampground = {name: name,prive:price, image: image, description: desc, author:author}
     // Create a new campground and save to DB
     Campground.create(newCampground, function(err, newlyCreated){
         if(err){
@@ -79,7 +79,7 @@ router.get("/:id/edit", middleware.checkUserCampground, function(req, res){
 });
 
 router.put("/:id", function(req, res){
-    var newData = {name: req.body.name, image: req.body.image, description: req.body.desc};
+    var newData = {name: req.body.name, price: req.body.price,image: req.body.image, description: req.body.desc};
     Campground.findByIdAndUpdate(req.params.id, {$set: newData}, function(err, campground){
         if(err){
             req.flash("error", err.message);
