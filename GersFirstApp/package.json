@@ -1,0 +1,14 @@
+{
+  "name": "gersapp",
+  "version": "1.0.0",
+  "description": "gers app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerald McAuley",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
