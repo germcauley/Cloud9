@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component{
   render(){
     return (
@@ -12,6 +13,7 @@ class App extends Component{
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <p>a p element</p>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -26,4 +28,4 @@ class App extends Component{
   }
 }
 
-export { App } ;
+export default {App};
