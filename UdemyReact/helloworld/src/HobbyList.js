@@ -18,4 +18,4 @@ class HobbyList extends Component {
     }
 }
 
-export default { HobbyList } ;
+export default HobbyList;

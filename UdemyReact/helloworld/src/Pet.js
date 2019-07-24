@@ -18,4 +18,4 @@ class Pet extends Component {
      }
  }
  
- export default { Pet } ;
+ export default Pet;
