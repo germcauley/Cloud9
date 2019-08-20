@@ -12,7 +12,7 @@ class Recipe extends Component {
                 <img src= {img} alt ={title} />
             </div>
             <div className = "recipe-card-content">
-                <h3 className = "recipe-title">Recipe {title}</h3>
+                <h3 className = "recipe-title">{title}</h3>
                 <h4>Ingredients</h4>
             <ul>
                 {ingredients}
