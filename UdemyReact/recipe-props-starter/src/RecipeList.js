@@ -16,7 +16,7 @@ class RecipeList extends Component {
                 title: "Milkshake",
                 instructions:"Add milk and shake!",
                 ingredients:["pasta", "8 cups water", "1 box sugar"],
-                img: "spaghetti.jpg"
+                img: "milkshake.png"
             }
             
             
