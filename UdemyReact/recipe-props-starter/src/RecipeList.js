@@ -17,6 +17,12 @@ class RecipeList extends Component {
                 instructions:"Add milk and shake!",
                 ingredients:["pasta", "8 cups water", "1 box sugar"],
                 img: "milkshake.png"
+            },
+            {
+                title: "Avocado",
+                instructions:"Add milk and shake!",
+                ingredients:["pasta", "8 cups water", "1 box sugar"],
+                img: "milkshake.png"
             }
             
             
@@ -25,7 +31,7 @@ class RecipeList extends Component {
     }
     
     static propTypes = {
-        recipes: PropTypes.arrayOf(PropTypes.object)
+        recipes: PropTypes.arrayOf(PropTypes.object).isRequired
     }
     render(){
         const recipes = this.props.recipes.map((r, index) =>(
