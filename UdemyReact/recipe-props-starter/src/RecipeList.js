@@ -20,9 +20,9 @@ class RecipeList extends Component {
             },
             {
                 title: "Avocado",
-                instructions:"Add milk and shake!",
-                ingredients:["pasta", "8 cups water", "1 box sugar"],
-                img: "milkshake.png"
+                instructions:"One avocado",
+                ingredients:["fresh avocado"],
+                img: "avocado.jpg"
             }
             
             
