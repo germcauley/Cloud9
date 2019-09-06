@@ -11,8 +11,8 @@ class Navbar extends Component {
                         <li><a>New Recipe</a></li>
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
-                        <li><a>Contact Us</a></li>
-                        <li><a>Another element!!!!!!</a></li>
+                        <li><a href="https://www.google.com">Contact Us</a></li>
+                        
                     </nav>
                 </header>
            
